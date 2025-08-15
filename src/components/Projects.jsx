@@ -167,7 +167,7 @@ function Projects() {
                 <img
                   src={currentProjectImages[currentImageIndex]}
                   alt="Image Not Found for this Project"
-                  className="max-h-[70vh] max-w-full object-contain rounded-lg"
+                  className="max-h-[70vh] w-[80%] object-contain rounded-lg"
                 />
 
                 {currentImageIndex < currentProjectImages.length - 1 ? (
