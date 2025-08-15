@@ -40,7 +40,7 @@ function About() {
 
             <a
               // href="https://drive.google.com/uc?export=download&id=1btMycK0-jQ9BRwv233WMHpznkGhtw1EG"
-              href="https://drive.google.com/file/d/1btMycK0-jQ9BRwv233WMHpznkGhtw1EG/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1qvxmST0zOCs7NOj7UUvuXxdXphaopsud/view?usp=drive_link"
               target="_blank"
               rel="noopener noreferrer"
               className="button button-outline"
