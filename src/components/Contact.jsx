@@ -3,7 +3,7 @@ import { Linkedin, Mail, MapPin, Phone, Send,Github } from "lucide-react";
 
 function Contact() {
   const [result, setResult] =useState("");
-
+  console.log(result)
   const onSubmit = async (event) => {
     event.preventDefault();
     setResult("Sending....");

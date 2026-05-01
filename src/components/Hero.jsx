@@ -36,8 +36,7 @@ function Hero() {
       {/* Subtitle */}
       <div className="max-w-3xl text-center mt-4 text-base sm:text-lg md:text-xl text-gray-800 dark:text-white mx-auto px-2">
         <p>
-          Aspiring Backend Developer | Passionate about Python, Node.js, FastAPI, and Scalable APIs.
-          Loves building real-world projects with AI, ML, and automation at the core.
+          Backend Developer | Crafting Scalable APIs & High-Performance Backend Systems with AI Integration
         </p>
       </div>
 

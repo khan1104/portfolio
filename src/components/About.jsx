@@ -21,14 +21,14 @@ function About() {
       <div className="flex flex-col md:flex-row justify-center items-start gap-10 mt-10 max-w-5xl mx-auto px-4">
         {/* Bio Section */}
         <div className="flex-1 p-6">
-          <p className="text-gray-800 dark:text-white text-center">
-            Passionate about building scalable, secure, and high-performance backend systems.
-            I specialize in Python, Node.js, and FastAPI, working with modern databases to
-            create robust APIs and data-driven applications.
+          <p className="text-gray-800 dark:text-white">
+            Backend Developer with hands-on experience in building scalable and production-ready systems.
+            I specialize in FastAPI and Node.js, with a strong focus on designing efficient REST APIs,
+            optimizing performance, and working with modern databases like MongoDB, Redis, and PostgreSQL.
           </p>
-          <p className="text-gray-800 dark:text-white text-center mt-4 ">
-            I enjoy integrating AI, ML, and automation into real-world solutions that make an
-            impact. For me, the tech stack doesn't matter — solving the problem does. I'm always eager
+          <p className="text-gray-800 dark:text-white mt-4 ">
+            I enjoy integrating AI and automation into real-world solutions that make an
+            impact. <span className="font-bold">For me, the tech stack doesn't matter — solving the problem does</span>. I'm always eager
             to learn, adapt, and deliver clean, efficient, and production-ready code.
           </p>
 
@@ -39,8 +39,7 @@ function About() {
             </a>
 
             <a
-              // href="https://drive.google.com/uc?export=download&id=1btMycK0-jQ9BRwv233WMHpznkGhtw1EG"
-              href="https://drive.google.com/file/d/1qvxmST0zOCs7NOj7UUvuXxdXphaopsud/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1BTONCgHxkOlb_BrnP61rHRvnNxsoTnBo/view?usp=drive_link"
               target="_blank"
               rel="noopener noreferrer"
               className="button button-outline"
@@ -70,7 +69,7 @@ function About() {
             <div>
               <p className="font-semibold text-gray-800 dark:text-white">Frontend development</p>
               <span className="text-gray-600 dark:text-gray-300 text-sm">
-                Crafting clean, Frontend development in React js and React Native.
+                Crafting clean, Frontend development in Next js and React Native.
               </span>
             </div>
           </div>
@@ -81,7 +80,7 @@ function About() {
             <div>
               <p className="font-semibold text-gray-800 dark:text-white">AI & Automation</p>
               <span className="text-gray-600 dark:text-gray-300 text-sm">
-                Integrating AI, ML, and automation into applications.
+                Integrating AI and automation into applications.
               </span>
             </div>
           </div>

@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 
 import {
-  FaPython, FaJsSquare, FaGitAlt, FaDocker, FaReact, FaNodeJs, FaDatabase,
+  FaPython, FaJsSquare, FaGitAlt, FaDocker, FaReact, FaNodeJs, FaDatabase,FaAws
 } from "react-icons/fa";
+import { RiSupabaseFill } from "react-icons/ri";
 import {
   SiTypescript, SiFastapi, SiFlask,SiExpress, SiTailwindcss,
   SiFirebase, SiRedis, SiMongodb, SiMysql, SiPostgresql,
-  SiPostman, SiN8N, SiLinux, SiCplusplus, SiArduino
+  SiPostman, SiN8N, SiLinux, SiCplusplus, SiArduino,SiNextdotjs
 } from "react-icons/si";
-
 const categories = ["all", "languages", "libraries & frameworks", "databases", "tools & technologies"];
 
 // Skills Data
@@ -25,6 +25,7 @@ const skillsData = [
   { name: "Express.js", icon: <SiExpress className="text-gray-400 text-4xl" />, category: "libraries & frameworks" },
   { name: "React.js", icon: <FaReact className="text-blue-400 text-4xl" />, category: "libraries & frameworks" },
   { name: "React Native", icon: <FaReact className="text-indigo-400 text-4xl" />, category: "libraries & frameworks" },
+  { name: "Next js", icon: <SiNextdotjs className="text-indigo-400 text-4xl" />, category: "libraries & frameworks" },
 
   { name: "Node.js", icon: <FaNodeJs className="text-green-500 text-4xl" />, category: "libraries & frameworks" },
   { name: "Tailwind CSS", icon: <SiTailwindcss className="text-sky-400 text-4xl" />, category: "libraries & frameworks" },
@@ -42,6 +43,8 @@ const skillsData = [
   { name: "Postman", icon: <SiPostman className="text-orange-400 text-4xl" />, category: "tools & technologies" },
   { name: "n8n", icon: <SiN8N className="text-orange-400 text-4xl" />, category: "tools & technologies" },
   { name: "REST APIs", icon: <FaDatabase className="text-gray-500 text-4xl" />, category: "tools & technologies" },
+  { name: "AWS", icon: <FaAws className="text-orange-500 text-4xl" />, category: "tools & technologies" },
+  { name: "Supabase", icon: <RiSupabaseFill className="text-green-400 text-4xl" />, category: "tools & technologies" },
   { name: "Arduino", icon: <SiArduino className="text-blue-400 text-4xl" />, category: "tools & technologies" },
   { name: "Linux (Ubuntu)", icon: <SiLinux className="text-yellow-500 text-4xl" />, category: "tools & technologies" },
 ];
