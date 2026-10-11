@@ -39,7 +39,7 @@ function About() {
             </a>
 
             <a
-              href="https://drive.google.com/file/d/1BTONCgHxkOlb_BrnP61rHRvnNxsoTnBo/view?usp=drive_link"
+              href="https://drive.google.com/file/d/14ZA_EZRbe3BtrqvSN6m0pL5kJjDQCKZ0/view?usp=drive_link"
               target="_blank"
               rel="noopener noreferrer"
               className="button button-outline"
